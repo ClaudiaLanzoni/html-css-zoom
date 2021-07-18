@@ -3,3 +3,145 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.body-container {
+    background-color: black;
+}
+
+.header-container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    background-color: black;
+}
+
+.header-button {
+    padding: 7px 10px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    background-image: linear-gradient(#616161, black);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.header-container button:first-of-type {
+    margin-right: 3px;
+}
+
+.main-container {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 80px 60px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row-img {
+    height: 120px;
+    width: 220px;
+    margin: 3px;
+    background-size: cover;
+    display: flex;
+    justify-self: flex-start;
+    align-items: flex-end;
+}
+
+.partecipant {
+    color: white;
+    width: auto;
+    padding: 5px 5px 0 0;
+    background-color: rgba(61,54,44,0.8);
+}
+
+.partecipant>i {
+    transform: rotateY(180deg);
+}
+
+/*.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}*/
+
+#bill {
+    background-image: url(../img/bill-spencer.jpg);
+}
+
+#bridget {
+    background-image: url(../img/bridget-forrester.jpg);
+}
+
+#brooke {
+    background-image: url(../img/brooke-forr.jpg);
+}
+
+#donna {
+    background-image:url(../img/donna-logan.jpg)
+}
+
+#eric {
+    background-image: url(../img/eric-forrester.jpg);
+}
+
+#felicia {
+    background-image: url(../img/felicia-forrester.jpg);
+}
+
+#katie {
+    background-image: url(../img/katie-logan.jpg);
+}
+
+#liam {
+    background-image: url(../img/liam-spencer.jpg);
+}
+
+#pamela {
+    background-image: url(../img/pamela-douglas.jpg);
+}
+
+#ridge {
+    background-image: url(../img/ridge-forrester.jpg);
+}
+
+#sally {
+    background-image: url(../img/sally-spectra.jpg);
+}
+
+#steffy {
+    background-image: url(../img/steffy-forrester-640x330.jpg);
+}
+
+#stephanie {
+    background-image: url(../img/stephanie\ forrester.jpg);
+}
+
+#taylor {
+    background-image: url(../img/taylor\ forrester.jpg);
+}
+
+#thorne {
+    background-image: url(../img/thorne-forrester.jpg);
+}
