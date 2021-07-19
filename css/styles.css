@@ -45,7 +45,6 @@ body {
     justify-content: center;
     align-items: center;
     overflow: auto;
-    position: relative;
 }
 
 .row-img {
@@ -73,10 +72,6 @@ body {
     transform: rotateY(180deg);
 }
 
-.fa-sort-up {
-    color: white;
-}
-
 .footer-container {
     background-color: rgba(32,34,35,255);
     color: white;
@@ -93,13 +88,17 @@ body {
 }
 
 .zoom-setting>div {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.fa-desktop {
+    color: chartreuse;
 }
 
 .relative {
@@ -115,6 +114,10 @@ body {
 .right-arrow {
     position: absolute;
     right: 5%;
+    color: white;
+}
+
+.fa-caret-right {
     color: turquoise;
 }
 
@@ -127,64 +130,3 @@ body {
     text-align: center;
     background-color: rgba(61,54,44,0.8);
 }
-
-/*
-#bill {
-    background-image: url(../img/bill-spencer.jpg);
-}
-
-#bridget {
-    background-image: url(../img/bridget-forrester.jpg);
-}
-
-#brooke {
-    background-image: url(../img/brooke-forr.jpg);
-}
-
-#donna {
-    background-image:url(../img/donna-logan.jpg)
-}
-
-#eric {
-    background-image: url(../img/eric-forrester.jpg);
-}
-
-#felicia {
-    background-image: url(../img/felicia-forrester.jpg);
-}
-
-#katie {
-    background-image: url(../img/katie-logan.jpg);
-}
-
-#liam {
-    background-image: url(../img/liam-spencer.jpg);
-}
-
-#pamela {
-    background-image: url(../img/pamela-douglas.jpg);
-}
-
-#ridge {
-    background-image: url(../img/ridge-forrester.jpg);
-}
-
-#sally {
-    background-image: url(../img/sally-spectra.jpg);
-}
-
-#steffy {
-    background-image: url(../img/steffy-forrester-640x330.jpg);
-}
-
-#stephanie {
-    background-image: url(../img/stephanie\ forrester.jpg);
-}
-
-#taylor {
-    background-image: url(../img/taylor\ forrester.jpg);
-}
-
-#thorne {
-    background-image: url(../img/thorne-forrester.jpg);
-} */
