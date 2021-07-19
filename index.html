@@ -15,7 +15,7 @@
     <title>Zoom</title>
 </head>
 <body>
-    <div class="body-container">
+    <div class="container">
         <header>
             <div class="header-container">
                 <button class="header-button"><i class="fas fa-th-large"></i> Speaker View</button>
@@ -26,7 +26,7 @@
         <main>
             <div class="main-container">
                         <div class="row-img">
-                            <img class="basis" src="img/bill-spencer.jpg" alt="Bill Spencer">
+                            <img src="img/bill-spencer.jpg" alt="Bill Spencer">
                             <div class="partecipant"><i class="fas fa-microphone-alt-slash"></i> Bill Spencer</div>
                         </div>
                    
@@ -151,32 +151,43 @@
                             </div>
                         </div>  
                     
+                        
+                        <div class="left-arrow">
+                            <i class="fas fa-caret-left fa-4x"></i>
+                            <div>1/2</div>
+                        </div>
+                        
+                        <div class="right-arrow">
+                            <i class="fas fa-caret-right fa-4x"></i>
+                            <div>1/2</div>
+                        </div>
+                        
+                    
         </main>
     </div>
     <footer>
         <div class="footer-container">
             <nav class="flex">
-                <ul class="zoom-setting">
-                    <li class="center"><i class="fas fa-microphone fa-2x"></i><div>Mute</div></li>
-                    <li><i class="fas fa-chevron-up"></i></li>
-                    <li class="center"><i class="fas fa-video fa-2x"></i><div>Stop Video</div></li>
-                    <li><i class="fas fa-chevron-up"></i></li>
-                </ul>
-                <ul class="zoom-setting">
-                    <li class="center"><i class="fas fa-user-plus fa-2x"></i><div>Invite</div></li>
-                    <li class="center"><i class="fas fa-user-friends fa-2x"></i><div>Manage partecipants</div></li>
-                    <li class="center"><i class="fas fa-poll fa-2x"></i><div>Polling</div></li>
-                    <li class="center"><i class="fas fa-desktop fa-2x"></i><div>Share Screen</div></li>
-                    <li><i class="fas fa-chevron-up"></i></li>
-                    <li class="center"><i class="fas fa-comment-dots fa-2x"></i><div>Chat</div></li>
-                    <li class="center"><i class="fas fa-record-vinyl fa-2x"></i><div>Record</div></li>
-                    <li class="center"><i class="fas fa-th-large fa-2x"></i><div>Breakout Rooms</div></li>
-                    <li class="center"><i class="fas fa-ellipsis-h fa-2x"></i><div>More</div></li>
-                </ul>
-                <ul class="zoom-setting">
-                    <li> <button id="end-button">End Meeting</button> </li>
-                </ul>
-            </div>
+                <div class="zoom-setting">
+                    <div class="center"><i class="fas fa-microphone fa-2x"></i><div>Mute</div></div>
+                    <div><i class="fas fa-chevron-up"></i></div>
+                    <div class="center"><i class="fas fa-video fa-2x"></i><div>Stop Video</div></div>
+                    <div><i class="fas fa-chevron-up"></i></div>
+                </div>
+                <div class="zoom-setting">
+                    <div class="center"><i class="fas fa-user-plus fa-2x"></i><div>Invite</div></div>
+                    <div class="center"><i class="fas fa-user-friends fa-2x"></i><div>Manage partecipants</div></div>
+                    <div class="center"><i class="fas fa-poll fa-2x"></i><div>Polling</div></div>
+                    <div class="center"><i class="fas fa-desktop fa-2x"></i><div>Share Screen</div></div>
+                    <div><i class="fas fa-chevron-up"></i></div>
+                    <div class="center"><i class="fas fa-comment-dots fa-2x"></i><div>Chat</div></div>
+                    <div class="center"><i class="fas fa-record-vinyl fa-2x"></i><div>Record</div></div>
+                    <div class="center"><i class="fas fa-th-large fa-2x"></i><div>Breakout Rooms</div></div>
+                    <div class="center"><i class="fas fa-ellipsis-h fa-2x"></i><div>More</div></div>
+                </div>
+                <div class="zoom-setting">
+                    <div> <button id="end-button">End Meeting</button> </div>
+                </div>
             </nav>
         </div>
     </footer>
