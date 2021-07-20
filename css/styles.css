@@ -18,10 +18,8 @@ body {
 .header-container {
     height: 40px;
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 10px;
+    text-align: right;
+    padding: 10px;
 }
 
 .header-button {
@@ -45,18 +43,20 @@ body {
     justify-content: center;
     align-items: center;
     overflow: auto;
+    height: calc(100vh - 90px) ;
 }
 
 .row-img {
     height: 120px;
+    width: 200px;
     margin: 3px;
     position: relative;
-    flex: 0 0 200px;
 }
 
 .row-img img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .partecipant {
@@ -76,6 +76,7 @@ body {
     background-color: rgba(32,34,35,255);
     color: white;
     padding-left: 5px;
+    height: 50px;
 }
 
 .center {
@@ -87,7 +88,7 @@ body {
     align-items: center;
 }
 
-.zoom-setting>div {
+.zoom-setting>div :not(#end-button){
     margin-right: 20px;
 }
 
